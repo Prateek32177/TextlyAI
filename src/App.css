@@ -1,38 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Josefin+Sans:wght@100&family=Roboto+Slab:wght@100&family=Rubik+Mono+One&display=swap');
+
 .App {
   text-align: center;
+
+  color:white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  
+  font-family: 'Train', serif;
+  letter-spacing:4px
+}
+h4{
+  
+font-family: 'Roboto Slab', serif;
+}
+h5{
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+  /* font-weight:light */
+  
+}
+.dImage{
+  /* background: rgb(0,0,0);
+  background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(40,42,48,1) 51%);
+  background-repeat: no-repeat no-repeat; */
+  /* background-position: center center; */
+  /* background-size: cover;
+ background-image: url("data:image/svg+xml,%3Csvg id='visual' viewBox='0 0 960 540' width='960' height='540' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1'%3E%3Crect x='0' y='0' width='960' height='540' fill='%23000'%3E%3C/rect%3E%3Cdefs%3E%3ClinearGradient id='grad1_0' x1='43.8%25' y1='100%25' x2='100%25' y2='0%25'%3E%3Cstop offset='14.444444444444446%25' stop-color='%23ffffff' stop-opacity='1'%3E%3C/stop%3E%3Cstop offset='85.55555555555554%25' stop-color='%23ffffff' stop-opacity='1'%3E%3C/stop%3E%3C/linearGradient%3E%3C/defs%3E%3Cdefs%3E%3ClinearGradient id='grad1_1' x1='43.8%25' y1='100%25' x2='100%25' y2='0%25'%3E%3Cstop offset='14.444444444444446%25' stop-color='%23ffffff' stop-opacity='1'%3E%3C/stop%3E%3Cstop offset='85.55555555555554%25' stop-color='%23b9b9b9' stop-opacity='1'%3E%3C/stop%3E%3C/linearGradient%3E%3C/defs%3E%3Cdefs%3E%3ClinearGradient id='grad1_2' x1='43.8%25' y1='100%25' x2='100%25' y2='0%25'%3E%3Cstop offset='14.444444444444446%25' stop-color='%23777777' stop-opacity='1'%3E%3C/stop%3E%3Cstop offset='85.55555555555554%25' stop-color='%23b9b9b9' stop-opacity='1'%3E%3C/stop%3E%3C/linearGradient%3E%3C/defs%3E%3Cdefs%3E%3ClinearGradient id='grad1_3' x1='43.8%25' y1='100%25' x2='100%25' y2='0%25'%3E%3Cstop offset='14.444444444444446%25' stop-color='%23777777' stop-opacity='1'%3E%3C/stop%3E%3Cstop offset='85.55555555555554%25' stop-color='%233b3b3b' stop-opacity='1'%3E%3C/stop%3E%3C/linearGradient%3E%3C/defs%3E%3Cdefs%3E%3ClinearGradient id='grad1_4' x1='43.8%25' y1='100%25' x2='100%25' y2='0%25'%3E%3Cstop offset='14.444444444444446%25' stop-color='%23000000' stop-opacity='1'%3E%3C/stop%3E%3Cstop offset='85.55555555555554%25' stop-color='%233b3b3b' stop-opacity='1'%3E%3C/stop%3E%3C/linearGradient%3E%3C/defs%3E%3Cdefs%3E%3ClinearGradient id='grad2_0' x1='0%25' y1='100%25' x2='56.3%25' y2='0%25'%3E%3Cstop offset='14.444444444444446%25' stop-color='%23ffffff' stop-opacity='1'%3E%3C/stop%3E%3Cstop offset='85.55555555555554%25' stop-color='%23ffffff' stop-opacity='1'%3E%3C/stop%3E%3C/linearGradient%3E%3C/defs%3E%3Cdefs%3E%3ClinearGradient id='grad2_1' x1='0%25' y1='100%25' x2='56.3%25' y2='0%25'%3E%3Cstop offset='14.444444444444446%25' stop-color='%23b9b9b9' stop-opacity='1'%3E%3C/stop%3E%3Cstop offset='85.55555555555554%25' stop-color='%23ffffff' stop-opacity='1'%3E%3C/stop%3E%3C/linearGradient%3E%3C/defs%3E%3Cdefs%3E%3ClinearGradient id='grad2_2' x1='0%25' y1='100%25' x2='56.3%25' y2='0%25'%3E%3Cstop offset='14.444444444444446%25' stop-color='%23b9b9b9' stop-opacity='1'%3E%3C/stop%3E%3Cstop offset='85.55555555555554%25' stop-color='%23777777' stop-opacity='1'%3E%3C/stop%3E%3C/linearGradient%3E%3C/defs%3E%3Cdefs%3E%3ClinearGradient id='grad2_3' x1='0%25' y1='100%25' x2='56.3%25' y2='0%25'%3E%3Cstop offset='14.444444444444446%25' stop-color='%233b3b3b' stop-opacity='1'%3E%3C/stop%3E%3Cstop offset='85.55555555555554%25' stop-color='%23777777' stop-opacity='1'%3E%3C/stop%3E%3C/linearGradient%3E%3C/defs%3E%3Cdefs%3E%3ClinearGradient id='grad2_4' x1='0%25' y1='100%25' x2='56.3%25' y2='0%25'%3E%3Cstop offset='14.444444444444446%25' stop-color='%233b3b3b' stop-opacity='1'%3E%3C/stop%3E%3Cstop offset='85.55555555555554%25' stop-color='%23000000' stop-opacity='1'%3E%3C/stop%3E%3C/linearGradient%3E%3C/defs%3E%3Cg transform='translate(960, 540)'%3E%3Cpath d='M-307 0C-313.3 -64.6 -319.6 -129.1 -290.1 -167.5C-260.6 -205.9 -195.3 -218 -141 -244.2C-86.7 -270.4 -43.3 -310.7 0 -351L0 0Z' fill='%23212121'%3E%3C/path%3E%3Cpath d='M-245.6 0C-250.6 -51.7 -255.7 -103.3 -232.1 -134C-208.5 -164.7 -156.3 -174.4 -112.8 -195.4C-69.3 -216.3 -34.7 -248.6 0 -280.8L0 0Z' fill='%23585858'%3E%3C/path%3E%3Cpath d='M-184.2 0C-188 -38.7 -191.8 -77.5 -174.1 -100.5C-156.4 -123.5 -117.2 -130.8 -84.6 -146.5C-52 -162.3 -26 -186.4 0 -210.6L0 0Z' fill='%23979797'%3E%3C/path%3E%3Cpath d='M-122.8 0C-125.3 -25.8 -127.8 -51.7 -116 -67C-104.2 -82.3 -78.1 -87.2 -56.4 -97.7C-34.7 -108.2 -17.3 -124.3 0 -140.4L0 0Z' fill='%23dbdbdb'%3E%3C/path%3E%3Cpath d='M-61.4 0C-62.7 -12.9 -63.9 -25.8 -58 -33.5C-52.1 -41.2 -39.1 -43.6 -28.2 -48.8C-17.3 -54.1 -8.7 -62.1 0 -70.2L0 0Z' fill='%23ffffff'%3E%3C/path%3E%3C/g%3E%3Cg transform='translate(0, 0)'%3E%3Cpath d='M348 0C337.5 58.8 327 117.5 299.6 173C272.3 228.5 228.2 280.7 175.5 304C122.8 327.3 61.4 321.6 0 316L0 0Z' fill='%23212121'%3E%3C/path%3E%3Cpath d='M278.4 0C270 47 261.6 94 239.7 138.4C217.9 182.8 182.6 224.6 140.4 243.2C98.2 261.8 49.1 257.3 0 252.8L0 0Z' fill='%23585858'%3E%3C/path%3E%3Cpath d='M208.8 0C202.5 35.3 196.2 70.5 179.8 103.8C163.4 137.1 136.9 168.4 105.3 182.4C73.7 196.4 36.8 193 0 189.6L0 0Z' fill='%23979797'%3E%3C/path%3E%3Cpath d='M139.2 0C135 23.5 130.8 47 119.9 69.2C108.9 91.4 91.3 112.3 70.2 121.6C49.1 130.9 24.6 128.7 0 126.4L0 0Z' fill='%23dbdbdb'%3E%3C/path%3E%3Cpath d='M69.6 0C67.5 11.8 65.4 23.5 59.9 34.6C54.5 45.7 45.6 56.1 35.1 60.8C24.6 65.5 12.3 64.3 0 63.2L0 0Z' fill='%23ffffff'%3E%3C/path%3E%3C/g%3E%3C/svg%3E"); */
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+.sidenav{
+  /* position: fixed; */
+  display: inline-block;
+  text-align: center;
+  padding-top: 4px;
+  display: flex;
+  flex-direction: column;
+  /* top: 32%; */
+  box-sizing: border-box;
+  overflow: hidden;
+  justify-content: center;
+  z-index: 2;
+  /* margin-top:8rem; */
+  /* animation:slide 4s;  */
+}
+
+.left-side-nav{
+  position: fixed;
+  display: inline-block;
+  text-align: center;
+  padding-top: 4px;
+  display: flex;
+  flex-direction: column;
+  top: 32%;
+  box-sizing: border-box;
+  overflow: hidden;
+  justify-content: center;
+  z-index: 2;
+  margin-top:8rem; 
+}
+
+@keyframes slide {
+  0%{
+    width: 0;
+
+  }
+  100%{
+    width: 100%;
+  }
+  
+}
+
+a:hover {
+  opacity: 0.6;
+}
+a {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 570px )  {
+  .HomeImage {
+    width:30vw;
+    }
+    .HerHeadingText{
+      width:40vw
+    }
+
+}
+
+@media screen and (max-width: 780px )  {
+ 
+    .sidecontrol-large{
+      display:none;
+    }
+}
+
+@media screen and (min-width: 780px )  {
+ 
+  .sidecontrol-large{
+    display:block;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#overlay {
+  position: fixed;
+  display: block;
+  width: 100vw;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  right: 0;
+  bottom: 0;
+  background: rgb(41,68,61);
+  z-index: 4;
+  animation: animate 5s;
+  animation-delay: 3.5s;
+  animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+#text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -200px;
+  width: 400px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+  text-align: center;
+  /* flex-wrap:wrap */
 }
 
-.App-link {
-  color: #61dafb;
+@keyframes animate {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.sidecontrols{
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+.keywordsInput::placeholder{
+  font-weight:ighter;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+.Footer p{
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing:2px;
+  margin-bottom:5px;
+}
+
+.HerHeadingText p{
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+  font-size:large
+}
+
+.instructions{
+font-weight:bolder;
+  font-family: 'Josefin Sans', sans-serif;
 }

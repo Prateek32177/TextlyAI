@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Train+One&display=swap");
+
+.App-header {
+    background: rgb(41,68,61);
+    background: linear-gradient(180deg, rgba(41,68,61,1) 0%, rgba(21,34,32,1) 50%, rgba(0,0,0,1) 100%);
+  min-height: 80vh;
+  repeat: none;
+  white-space: pre-line;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  /* border:80px solid black; */
+  /* outline: 2px solid grey; */
+  /* box-shadow: #00B8FF 0px 20px 30px -10px; */
+  /* outline-offset: -50px; */
+
+}
+
+.App-header h2 {
+  font-family: "Anton", sans-serif;
+
+  letter-spacing: 3px;
+}
+.App-header h1 {
+  font-family: "Train One", cursive;
+  letter-spacing: 8px;
+}
+i {
+  font-size: 30px;
+  font-family: "Caveat", cursive;
+  letter-spacing: 3px;
+}
+
+logo{
+    font-size: x-large;
+    font-weight: 900;
+}
+
+ img{
+    /* width:350px;
+    height:500px; */
+    width:70vw;
+  min-height:40vh;
+  padding:20px;
+    border-radius:20px;
+    /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+  }
