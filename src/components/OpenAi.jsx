@@ -23,7 +23,7 @@ function AskMe() {
   const [columnHeaders, setColumnHeaders] = useState([]);
   const [loader, setLoader] = useState(false);
   const configuration = new Configuration({
-    apiKey: "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",
+   //apikey here
   });
 
   let catStr = "";
